@@ -1,0 +1,23 @@
+body {
+  background-color: #d5cce4;
+  color: #2c2c2c;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+h1 {
+  font-size: 3rem;
+  color: #a44cd7;
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 2rem;
+  color: #fc6390;
+  margin-top: 40px;
+}
+h3 {
+  font-size: 1.5rem;
+  color: #4b7bec;
+  margin-top: 25px;
+}

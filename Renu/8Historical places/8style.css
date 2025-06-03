@@ -1,0 +1,19 @@
+body {
+      background-color: burlywood;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+}
+h1 {
+      color: brown;
+      font-size: 3rem;
+      margin-bottom: 20px;
+}
+h2 {
+      color: chocolate;
+      margin-top: 40px;
+}
+img {
+      width: 500px;
+      border-radius: 15px;
+      margin-top: 10px;
+}
