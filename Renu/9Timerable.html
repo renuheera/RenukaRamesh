@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Class Timetable</title>
+<style>
+    table {
+      border: 2px solid #333;
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    caption {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+    thead th {
+      background-color: #b9dafc;
+    }
+    tfoot td {
+      background-color: #e7c3c3;
+      font-style: italic;
+    }
+</style>
+</head>
+<body>
+  <table>
+    <caption>Class Timetable</caption>
+    <thead>
+      <tr>
+        <th>Day.Time</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>11:15 - 12:15</th>
+        <th>12.15 - 1.15</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Math</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>English</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Biology</td>
+        <td>Math</td>
+        <td>Physics</td>
+        <td>Computer</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Math</td>
+        <td>Biology</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Computer</td>
+        <td>Biology</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td colspan="2">Lab</td>
+        <td>Math</td>
+        <td>English</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">Note: Timetable might change according to exam schedule</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
