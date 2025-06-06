@@ -1,0 +1,48 @@
+.profilecard {
+    background-color: rgba(30, 30, 30, 0.818);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+#heading{
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 1px;;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+b,h2{
+    color: #f0f0f0;
+}
+p{
+    margin-left: 20px;
+    line-height: 1;
+}
+.contach.info{
+    color: firebrick;
+    display: inline-block;
+    margin-top: 5px;
+}
+body{
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color:rgba(36, 35, 34, 0.924);
+    border-radius: 15px;
+    margin-left: 270px;
+    height: 50%;
+    width: 60%;
+    margin-top: 45px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+}
