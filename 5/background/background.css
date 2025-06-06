@@ -1,0 +1,23 @@
+
+.fixed-bg{
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/014/609/020/small_2x/beautiful-pallava-architecture-and-exclusive-sculptures-at-the-kanchipuram-kailasanathar-temple-oldest-hindu-temple-in-kanchipuram-tamil-nadu-best-archeological-sites-in-south-india-free-photo.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(227, 204, 204);
+    text-align: center;
+    padding-top: 40vh;
+    font-size: 2em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.scroll-bg{
+    background: url('https://hampitourism.co.in/images/places-to-visit/headers/vijaya-vittala-temple-hampi-tourism-entry-fee-timings-holidays-reviews-header.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: rgb(254, 82, 82);
+    text-align: center;
+    padding-top: 40vh;
+    font-size: 2em;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}

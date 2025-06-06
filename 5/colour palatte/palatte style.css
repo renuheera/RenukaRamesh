@@ -1,0 +1,17 @@
+body{
+    background-color: beige;
+    align-items: center;
+    align-content: center;
+    padding: 50px;
+}
+.main{
+    display: inline-block;
+}
+.header{
+    text-align: center;
+    color: brown;
+}
+.color{
+    text-align: center;
+    color: antiquewhite;
+}
