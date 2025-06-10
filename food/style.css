@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+body {
+    background-color: rgba(30,30,30,0.818);
+    color: whitesmoke;
+    font-style: italic;
+    padding: 20px;
+    background: url('file:///C:/Users/USER/Downloads/WhatsApp%20Image%202025-06-08%20at%2010.34.34%20PM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg {
+    background: url('file:///C:/Users/USER/Downloads/WhatsApp%20Image%202025-06-08%20at%2010.34.34%20PM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(30,30,30,0.818);
+}
+header {
+    background-color: rgba(36, 35, 34, 0.924);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+header h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    color: #fff2e1;
+}
+.subheading {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff8ef;
+}
+.main-nav {
+    margin-top: 20px;
+}
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+.main-nav ul li {
+    margin: 0 15px;
+}
+.main-nav ul li a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+.main-nav ul li a:hover {
+    color: #cd0000;
+}
+.main-content {
+    background-color: rgba(36, 35, 34, 0.924);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.main-content-section {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.text-container {
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 8px;
+}
+.main-content-section h2 {
+    font-size: 4.5em;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #fff2e1;
+    font-weight: bold;
+    font-style: normal;
+}
+.main-content-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-style: normal;
+}
+.view-button {
+    background-color: #cd0000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.view-button:hover {
+    background-color: #a00000;
+}
+.main-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff2e1;
+    font-style: normal;
+}
+.main-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+footer a:hover {
+    color: whitesmoke;
+}

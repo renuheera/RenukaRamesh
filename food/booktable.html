@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Table</title>
+  <link rel="stylesheet" href="foodstyle.css">
+</head>
+<body>
+
+  <header>
+    <h1>Reserve Your Table</h1>
+    <p class="subheading">Plan ahead, dine in style 🪑🍽️</p>
+  </header>
+
+  <section class="main-content">
+    <form action="thankyou.html" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="date">Date:</label><br>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="time">Time:</label><br>
+      <input type="time" id="time" name="time" required><br><br>
+
+      <label for="guests">Number of Guests:</label><br>
+      <input type="number" id="guests" name="guests" required><br><br>
+
+      <label for="notes">Special Requests:</label><br>
+      <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Any allergies or requests?"></textarea><br><br>
+
+      <button type="submit" class="view-button">Book Now</button>
+    </form>
+
+    <a href="mainpage.html"><button class="view-button">← Back to Home</button></a>
+  </section>
+
+  <footer style="text-align: center; padding-top: 20px;">
+    <p>&copy; Ooru Unavu</p>
+    <p>Follow us on 
+      <a href="https://twitter.com">Twitter</a> | 
+      <a href="https://facebook.com">Facebook</a> | 
+      <a href="https://instagram.com">Instagram</a>
+    </p>
+  </footer>
+
+</body>
+</html>

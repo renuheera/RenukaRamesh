@@ -4,37 +4,36 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
-
 body {
-  background-color: #fff9f0;
-  color: #333;
+  background-color: rgba(30,30,30,0.818);
+  color: whitesmoke;
+  font-style: italic;
   padding: 20px;
+  background: url('file:///C:/Users/USER/Downloads/WhatsApp%20Image%202025-06-08%20at%2010.34.34%20PM.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 header {
-  background-color: #ff914d;
+  background-color: rgba(36, 35, 34, 0.924);
   color: white;
   padding: 25px;
   text-align: center;
   border-radius: 10px;
   margin-bottom: 30px;
 }
-
 .subheading {
   font-size: 18px;
   margin-top: 10px;
-  color: #fcebd3;
+  color: #fff8ef;
 }
-
 .recipe-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
-
 .recipe-card {
-  background-color: #fff3e0;
+  background-color: rgba(36, 35, 34, 0.924);
   border-radius: 10px;
   padding: 15px;
   width: 200px;
@@ -42,32 +41,31 @@ header {
   transition: transform 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
 .recipe-card:hover {
   transform: scale(1.05);
 }
-
 .recipe-card img {
   width: 100%;
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
 }
-
 .recipe-card h3 {
   margin-top: 10px;
   font-size: 18px;
-  color: #b23b00;
+  color: #fff2e1;
 }
-
 .recipe-card p {
   font-size: 14px;
   margin: 8px 0;
-  color: #444;
+  color: whitesmoke;
 }
-
+.bg{
+  background-color: rgba(30,30,30,0.818);
+  background-image: none;
+}
 .view-button {
-  background-color: #ff914d;
+  background-color: #cd0000;
   color: white;
   border: none;
   padding: 8px 12px;
@@ -75,11 +73,9 @@ header {
   cursor: pointer;
   transition: background-color 0.3s;
 }
-
 .view-button:hover {
-  background-color: #e25d1e;
+  background-color: #cd0000;
 }
-
 footer {
   text-align: center;
   margin-top: 40px;
