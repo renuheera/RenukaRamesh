@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.gallery-section {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.gallery-section h2 {
+    margin-bottom: 25px;
+    color: #007bff;
+    font-size: 2em;
+}
+.product-gallery {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+}
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    place-items: center;
+}
+.product-card {
+    width: 200px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+.product-image {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.product-1-bg { background-image: url('https://i.pinimg.com/736x/69/26/2e/69262e31ddee8ee63a0be799875bbe81.jpg'); }
+.product-2-bg { background-image: url('https://i.pinimg.com/736x/df/5b/83/df5b83bf5206f50f94a30559d5a21f0b.jpg'); }
+.product-3-bg { background-image: url('https://i.pinimg.com/736x/c5/b1/33/c5b133d8f05f359e1d6c792bea023285.jpg'); }
+.product-4-bg { background-image: url('https://i.pinimg.com/736x/44/1d/bd/441dbd069fee425112774e508c2614f5.jpg'); }
+.product-5-bg { background-image: url('https://i.pinimg.com/736x/4f/c4/e0/4fc4e0fd3bf25fd05e77d96aa091bbc6.jpg'); }
+.product-6-bg { background-image: url('https://i.pinimg.com/736x/b5/6c/16/b56c16ff4ceb8d25d7ee8af87f821854.jpg'); }
+.product-7-bg { background-image: url('https://i.pinimg.com/736x/88/11/ac/8811ac25978655b46eca481c020bbb9d.jpg'); }
+.product-8-bg { background-image: url('https://i.pinimg.com/736x/af/54/27/af5427c9e8b1fabcbc26a59fcbeb6ba4.jpg'); }
+.product-card h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+.product-card p {
+    color: #555;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100%;
+}
